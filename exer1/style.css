@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+}
+
+.container {
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle_orange {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orange;
+  border: 2px solid black;
+}
+.circle_blue {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 2px solid black;
+}

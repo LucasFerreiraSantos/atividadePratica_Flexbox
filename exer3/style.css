@@ -31,8 +31,9 @@ body {
     fill-mode play-state;
 }
 #header .profile-name {
-  min-width: 34em;
+  flex: 1;
 }
+
 #header .follow-btn {
   margin: 0 0 0 auto;
 }
